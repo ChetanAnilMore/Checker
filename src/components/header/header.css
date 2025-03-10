@@ -1,0 +1,24 @@
+.bg-black * {
+    color: white !important;
+  }
+  .navbar {
+    color: white !important;
+  }
+  
+  .navbar a {
+    color: white !important;
+  }
+  
+  .navbar-toggler {
+    filter: invert(1); /* Makes the toggle button white */
+  }
+  
+.logo-img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.btn-warning {
+    color: black !important;
+    font-weight: bold;
+}

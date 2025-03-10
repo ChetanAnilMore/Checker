@@ -1,0 +1,11 @@
+.aichecker {
+    display: flex;
+}
+
+.about-text {
+    font-size: 24px;
+}
+
+.bg-yellow{
+    background: #ffdb58 !important;
+}
