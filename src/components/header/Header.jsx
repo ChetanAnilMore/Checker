@@ -3,7 +3,6 @@ import "./header.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../../public/logo.png";
 
 const Header = () => {
@@ -21,7 +20,11 @@ const Header = () => {
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
-              <button type="button" class="btn m-1 px-3 py-1 btn-warning">
+              <button
+                type="button"
+                href="#login"
+                className="btn m-1 px-3 py-1 btn-warning"
+              >
                 Login
               </button>
             </Nav>

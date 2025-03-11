@@ -6,3 +6,12 @@
     align-items: center;
     justify-content: center;
 }
+#github {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+a {
+    color: white !important;
+    text-decoration: auto;
+}

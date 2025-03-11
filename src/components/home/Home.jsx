@@ -17,48 +17,34 @@ const Home = () => {
             <img src={hero} alt="hero" />
           </div>
         </div>
-        <div className="row">
-          <div className="col">
-            <div
-              className="card text-bg-dark mb-3 mx-3"
-              style={{ maxWidth: "18rem;" }}
-            >
-              <div className="card-header">Publish</div>
-              <div className="card-body">
-                <h5 className="card-title">Enter Question Paper</h5>
-                <p className="card-text">
-                  Enter a question paper which you want to check or evaluate.
-                </p>
-              </div>
+        <div className="container d-flex justify-content-around flex-wrap m-0">
+          <div className="card text-bg-dark" style={{ maxWidth: "20rem" }}>
+            <div className="card-header">Publish</div>
+            <div className="card-body">
+              <h5 className="card-title">Enter Question Paper</h5>
+              <p className="card-text">
+                Enter a question paper which you want to check or evaluate.
+              </p>
             </div>
           </div>
-          <div className="col">
-            <div
-              className="card text-bg-dark mb-3"
-              style={{ maxWidth: "18rem;" }}
-            >
-              <div className="card-header">Check</div>
-              <div className="card-body">
-                <h5 className="card-title">Enter answers</h5>
-                <p className="card-text">
-                  Enter answers and curresponding marks to that question.
-                </p>
-              </div>
+
+          <div className="card text-bg-dark mb-3" style={{ maxWidth: "20rem" }}>
+            <div className="card-header">Check</div>
+            <div className="card-body">
+              <h5 className="card-title">Enter answers</h5>
+              <p className="card-text">
+                Enter answers and corresponding marks to that question.
+              </p>
             </div>
           </div>
-          <div className="col">
-            <div
-              className="card text-bg-dark mb-3 mx-3"
-              style={{ maxWidth: "18rem;" }}
-            >
-              <div className="card-header">Evaluate</div>
-              <div className="card-body">
-                <h5 className="card-title">Evaluation Model</h5>
-                <p className="card-text">
-                  Our AI model will evaluate the answer for you. And give scores
-                  accordingly.
-                </p>
-              </div>
+
+          <div className="card text-bg-dark mb-3" style={{ maxWidth: "20rem" }}>
+            <div className="card-header">Evaluate</div>
+            <div className="card-body">
+              <h5 className="card-title">Evaluation Model</h5>
+              <p className="card-text">
+                Our AI model will evaluate the answer for you.
+              </p>
             </div>
           </div>
         </div>

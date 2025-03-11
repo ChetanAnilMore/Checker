@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 const Footer = () => {
   return (
-    <div className="footer text-bg-dark footer mt-0 p-5 w-100 h-100">
+    <div className="footer text-bg-dark mt-0 p-5 w-100 h-100">
       <Container id="contact" className="">
         <Row>
           <Col className="text-center">
@@ -29,12 +29,46 @@ const Footer = () => {
           </Col>
           <Col className="text-center">
             <div className="mb-2">
-              <b>Contact No.</b>
+              <img
+                src="github.png"
+                alt="GitHub"
+                id="github"
+                style={{ maxWidth: "2rem" }}
+              />{" "}
+              <b>Github Link</b>
             </div>
-            <div>1234567890</div>
-            <div>2345678905</div>
-            <div>8976542131</div>
-            <div>9125606002</div>
+            <div>
+              <a
+                href="https://github.com/ChetanAnilMore/Checker"
+                className="text-white text-decoration-none"
+              >
+                ChetanAnilMore
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/anurag4me"
+                className="text-white text-decoration-none"
+              >
+                Anurag4me
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/amritosanto"
+                className="text-white text-decoration-none"
+              >
+                AmritoSanto
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/MayankSureshAgrawal"
+                className="text-white text-decoration-none"
+              >
+                MayankSureshAgrawal
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>
