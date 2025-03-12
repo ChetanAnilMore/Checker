@@ -17,8 +17,8 @@ const Home = () => {
             <img src={hero} alt="hero" />
           </div>
         </div>
-        <div className="container d-flex justify-content-around flex-wrap m-0">
-          <div className="card text-bg-dark" style={{ maxWidth: "20rem" }}>
+        <div className="container d-flex justify-content-around flex-wrap">
+          <div className="card text-bg-dark mb-3" style={{ maxWidth: "20rem" }}>
             <div className="card-header">Publish</div>
             <div className="card-body">
               <h5 className="card-title">Enter Question Paper</h5>

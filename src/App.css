@@ -1,0 +1,20 @@
+/* App.css */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the app takes up the full viewport height */
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Allows main content to take up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Adds padding to separate header and footer */
+  }
+  
+  .footer {
+    /* Add styles for your footer if needed */
+    margin-top: auto; /* Ensures footer stays at the bottom */
+  }
